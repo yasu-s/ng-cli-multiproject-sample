@@ -4,8 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:app1": "ng serve app1",
+    "start:app2": "ng serve app2",
     "build": "ng build",
-    "build:w": "ng build sample --watch",
+    "build:app1": "ng build app1",
+    "build:app2": "ng build app2",
     "test": "ng test",
     "test:coverage": "ng test --code-coverage",
     "test:headless": "ng test --code-coverage --browsers ChromeHeadless --watch false",

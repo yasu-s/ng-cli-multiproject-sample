@@ -12,7 +12,7 @@ export class AppComponent {
     title = 'app';
 
     /** クリック回数 */
-    cnt: number = 0;
+    cnt = 0;
 
 // #endregion
 

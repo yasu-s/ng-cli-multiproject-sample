@@ -143,19 +143,19 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "browserTarget": "sample:build",
+                        "browserTarget": "app2:build",
                         "port": 4200
                     },
                     "configurations": {
                         "production": {
-                        "browserTarget": "sample:build:production"
+                        "browserTarget": "app2:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "sample:build"
+                        "browserTarget": "app2:build"
                     }
                 },
                 "test": {

@@ -8,8 +8,22 @@
   <th>概要</th>
 </tr>
 <tr>
+  <td>start</td>
+  <td>
+    ソースコードをビルド・サーバー実行します。<br>
+    引数にプロジェクト名を入力することで、各プロジェクトのビルドが可能です。<br>
+    <code>npm start -- app1</code><br>
+    <code>npm start -- app2</code>
+  </td>
+</tr>
+<tr>
   <td>build</td>
-  <td>ソースコードをビルドします。</td>
+  <td>
+    ソースコードをビルドします。<br>
+    引数にプロジェクト名を入力することで、各プロジェクトのビルドが可能です。<br>
+    <code>npm run build -- app1</code><br>
+    <code>npm run build -- app2</code>
+  </td>
 </tr>
 <tr>
   <td>test</td>
