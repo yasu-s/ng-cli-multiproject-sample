@@ -12,13 +12,6 @@
   <td>ソースコードをビルドします。</td>
 </tr>
 <tr>
-  <td>start:bs</td>
-  <td>
-    browser-sync で起動します。<br>  
-    ソースコードの変更を監視して、ビルドも実行します。
-  </td>
-</tr>
-<tr>
   <td>test</td>
   <td>単体テストを実行します。</td>
 </tr>

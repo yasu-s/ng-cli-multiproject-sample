@@ -10,10 +10,7 @@
     "test:coverage": "ng test --code-coverage",
     "test:headless": "ng test --code-coverage --browsers ChromeHeadless --watch false",
     "lint": "ng lint",
-    "lint:output": "tslint -p ./src/tslint.json -o ./reports/tslint-result.json -t json",
-    "e2e": "ng e2e",
-    "browser-sync": "browser-sync start --config bs-config.js",
-    "start:bs": "concurrently -k \"npm run build:w\" \"npm run browser-sync\""
+    "lint:output": "tslint -p ./src/tslint.json -o ./reports/tslint-result.json -t json"
   },
   "private": true,
   "dependencies": {
@@ -51,9 +48,6 @@
     "karma-junit-reporter": "~1.2.0",
     "protractor": "~5.3.0",
     "ts-node": "~5.0.1",
-    "tslint": "~5.9.1",
-    "browser-sync": "~2.24.4",
-    "connect-history-api-fallback": "~1.5.0",
-    "concurrently": "^3.5.1"
+    "tslint": "~5.9.1"
   }
 }
